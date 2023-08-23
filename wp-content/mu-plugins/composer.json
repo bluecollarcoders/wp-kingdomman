@@ -1,0 +1,16 @@
+{
+    "name": "cmatteis/mu-plugins",
+    "require": {
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cmatteis\\MuPlugins\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "y"
+        }
+    ]
+}
