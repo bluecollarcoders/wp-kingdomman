@@ -1,0 +1,71 @@
+
+.py-48 {
+    padding-top: 23rem!important;
+    padding-bottom: 22rem!important;
+}
+
+.pb-20 {
+    padding-bottom: 5rem!important;
+}
+
+.btn-primary {
+    &:hover {
+        background-color: #009179!important;
+        color: $black;
+    }
+}
+
+.mt-10 {
+    margin-top: 2.5rem!important;
+}
+
+
+.mt-xl-12 {
+    @media (min-width: 1200px) {
+        margin-top: 3rem!important;
+    }
+}
+
+
+.ms-lg-16 {
+    @media (min-width: 992px) {
+       margin-left: 4rem!important;
+    }
+}
+
+
+.mt-lg-6 {
+    @media (min-width: 992px) {
+       margin-top: 1.5rem!important; 
+    }
+}
+
+
+.mb-lg-0-a {
+    @media (min-width: 992px) {
+        margin-bottom: 0!important;
+    }
+}
+
+
+.pb-lg-10 {
+    @media (min-width: 992px) {
+        padding-bottom: 2.5rem!important;
+    }
+}
+
+
+.h2-size {
+    @media (min-width: 1200px) {
+      font-size: 3rem;
+    }
+}
+
+.mb-h2 {
+    margin-bottom: 1.25rem;
+}
+
+.lead-2 {
+    font-size: 1.25rem;
+    font-weight: 400;
+}

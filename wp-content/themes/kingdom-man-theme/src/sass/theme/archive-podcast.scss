@@ -1,0 +1,35 @@
+
+.caption-2 figcaption {
+    width: 80%;
+    position: absolute;
+    bottom: 1rem;
+    left: 10%;
+    background: rgba(255, 255, 255, 0.6);
+  }
+
+  .header-podcast {
+    text-align:center;
+    margin-top:45px;
+    margin-bottom:20px;
+    text-transform:uppercase;
+    font-size:3rem;
+  }
+
+  figcaption ul {
+    margin: 0 0 10px 0;
+    padding: 0;
+    list-style: none;
+    font-weight: bold;
+    font-size: 13px;
+    font-size: calc(0.688rem + 0.1vw);
+    text-transform: uppercase;
+
+    a {
+        text-decoration: none;
+        color: #333;
+
+        &:hover {
+            color: gray;
+        }
+    }
+}

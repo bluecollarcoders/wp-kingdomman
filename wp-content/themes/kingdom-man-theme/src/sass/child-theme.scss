@@ -1,0 +1,31 @@
+@import "theme/child_theme_variables";                   // <------- Add your variables into this file. Also add variables to overwrite Bootstrap variables here
+@import "assets/bootstrap5/bootstrap";                             // <------- Loads Bootstrap4
+@import "assets/understrap/theme/understrap";  // <------- Loads the Understrap defaults. Just a few classes to incorporate BS in WP
+@import "assets/understrap/theme/woocommerce"; // <------- Loads WooCommerce style fixes. Comment out if you aren't using WooCommerce
+
+// Optional files - If you don´t use the corresponding scripts/fonts comment em out
+@import "assets/fontawesome/font-awesome";                           // <------- Font Awesome Icon font
+@import "assets/underscores";                            // <------- Underscores media styles
+
+// Any additional imported files //
+@import "theme/child_theme";                             // <------- Add your styles into this file
+@import "theme/header";                             // <------- Add your styles into this file
+@import "theme/category";                             // <------- Add your styles into this file
+@import "theme/single";                             // <------- Add your styles into this file
+@import "theme/header-front";                             // <------- Add your styles into this file
+@import "theme/home";                             // <------- Add your styles into this file
+@import "theme/footer";                             // <------- Add your styles into this file
+@import "theme/about";                             // <------- Add your styles into this file
+@import "theme/back-to-top";                             // <------- Add your styles into this file
+@import "theme/front-page";                             // <------- Add your styles into this file
+@import "theme/news-letter";                             // <------- Add your styles into this file
+@import "theme/related-posts";                             // <------- Add your styles into this file
+@import "theme/single-podcast";                             // <------- Add your styles into this file
+@import "theme/archive-podcast";                             // <------- Add your styles into this file
+@import "theme/contact";                             // <------- Add your styles into this file
+@import "theme/sign-up";                             // <------- Add your styles into this file
+@import "theme/cta";                             // <------- Add your styles into this file
+@import "theme/overlay";                             // <------- Add your styles into this file
+@import "assets/understrap/theme/colors";           // <-------- This creates the necessary bootstrap color classes.
+@import "assets/understrap/theme/blocks";           // <-------- This adds Bootstrap styles to blocks.
+@import "assets/understrap/theme/contact-form7";    // <-------- Contact Form 7 - Bootstrap 4 support

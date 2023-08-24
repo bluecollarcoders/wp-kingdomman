@@ -1,0 +1,115 @@
+
+.site-section {
+    padding: 7em 0;
+    padding-top: 10rem;
+
+	h2 {
+			font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+			font-weight: 300;
+			font-size: 3rem;
+		}
+	}
+
+@media (max-width: 375px) {
+    .site-section {
+        h2 {
+            font-size: 1.75rem;
+        }
+    }
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem !important;
+}
+
+.pt-5 {
+    padding-top: 3rem !important;
+}
+
+.mt-5 {
+    margin-top: 3rem !important;
+}
+
+.mb-5 {
+    margin-bottom: 3rem !important;
+}
+
+.ml-2 {
+    margin-left: 0.5rem !important;
+}
+
+.post-entry-horzontal a .image {
+    width: 240px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.post-entry-horzontal a {
+    overflow: hidden;
+    display: table;
+    position: relative;
+    text-decoration: none;
+    top: 0;
+    -webkit-transition: .1s all ease;
+    -o-transition: .1s all ease;
+    transition: .1s all ease;
+}
+
+@media (max-width: 375px) {
+    .post-entry-horzontal a {
+        display: flex;
+    }
+}
+
+@media (max-width: 375px) {
+    .wrapper {
+        padding-top: 10rem !important;
+    }
+}
+
+
+.post-entry-horzontal {
+    margin-bottom: 30px;
+}
+
+.post-entry-horzontal a .text {
+    padding: 30px;
+    border: 1px solid #e6e6e6;
+    border-left: none;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+@media (max-width: 375px) {
+    .post-entry-horzontal a .text {
+        padding: 0px;
+    }
+}
+
+.post-entry-horzontal a .text h2 {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.blog-entries .post-meta {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #b3b3b3;
+}
+
+.get-the-title {
+    color:#000;
+    font-size: 20px;
+}
+
+.mr-2 {
+    margin-right: 0.5rem !important;
+}
+
+.ml-2 {
+    margin-left: 0.5rem !important;
+}
+
+.wrapper {
+    padding-top: 20rem;
+}
