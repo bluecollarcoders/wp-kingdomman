@@ -24,16 +24,16 @@
 define( 'WP_CACHE', true );
 define( 'WPCACHEHOME', '/Users/cmatteis/Local Sites/kingdom-man/app/public/wp-content/plugins/wp-super-cache/' );
 
-if ( 'kingdom-man.local' === $_SERVER['SERVER_NAME'] ) {
-	define( 'DB_NAME', 'local' );
-	define( 'DB_USER', 'root' );
-	define( 'DB_PASSWORD', 'root' );
-	define( 'DB_HOST', 'localhost' );
-} else { 
-	define( 'DB_NAME', 'u132159430_kingdomwp' );
-	define( 'DB_USER', 'u132159430_cmatteis21' );
-	define( 'DB_PASSWORD', 'Godspower4!' );
-	define( 'DB_HOST', 'localhost' );
+if ($_SERVER['SERVER_NAME'] === 'kingdom-man.local') {
+    define( 'DB_NAME', 'local' );
+    define( 'DB_USER', 'root' );
+    define( 'DB_PASSWORD', 'root' );
+    define( 'DB_HOST', 'localhost' );
+} else {
+	define( 'DB_NAME', 'u132159430_kingdomdb' );
+    define( 'DB_USER', 'u132159430_cmatteis' );
+    define( 'DB_PASSWORD', 'Godspower4!' );
+    define( 'DB_HOST', 'localhost' );
 }
 
 
@@ -45,8 +45,7 @@ define( 'DB_CHARSET', 'utf8' );
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
 
-/*
- The line `define('WPCF7_AUTOP', false );` is defining a constant called `WPCF7_AUTOP` and setting
+/* The line `define('WPCF7_AUTOP', false );` is defining a constant called `WPCF7_AUTOP` and setting
 
 its value to `false`. This constant is related to the Contact Form 7 plugin in WordPress. It removes p tags and br tags */
 define( 'WPCF7_AUTOP', false );
