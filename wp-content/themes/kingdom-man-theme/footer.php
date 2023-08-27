@@ -18,23 +18,23 @@ $container = get_theme_mod( 'understrap_container_type' );
           <div class="max-w-xl mx-auto">
             <div class="text-center pb-10 border-bottom">
               <a class="d-inline-block  navbar-brand" href="#">
-                <img class="footer-img" src="<?php echo get_stylesheet_directory_uri() ?>/logos/kingdom-logo-footer.svg" alt="" width="280">
+                <img class="footer-img" src="<?php echo get_stylesheet_directory_uri() ?>/logos/kingdom-logo-footer.svg" alt="KingdomMan logo" width="280">
               </a>
 
               <?php get_template_part('global-templates/nav-footer-bootstrap5'); ?>
 
               <div class="d-flex flex-wrap justify-content-center  align-items-center">
                 <a class="text-decoration-none me-10" href="#">
-                  <img src="<?php echo get_stylesheet_directory_uri() ?>/logos/brands/facebook.svg" alt="">
+                  <img src="<?php echo get_stylesheet_directory_uri() ?>/logos/brands/facebook.svg" alt="facebook logo">
                 </a>
                 <a class="text-decoration-none me-10" href="#">
-                <img src="<?php echo get_stylesheet_directory_uri() ?>/logos/brands/twitter-x.svg" alt="">
+                <img src="<?php echo get_stylesheet_directory_uri() ?>/logos/brands/twitter-x.svg" alt="twitter logo">
                 </a>
                 <a class="text-decoration-none me-10" href="#">
-                  <img src="<?php echo get_stylesheet_directory_uri() ?>/logos/brands/Instagram.svg" alt="">
+                  <img src="<?php echo get_stylesheet_directory_uri() ?>/logos/brands/Instagram.svg" alt="Instagram logo">
                 </a>
                 <a class="text-decoration-none me-10" href="#">
-                  <img src="<?php echo get_stylesheet_directory_uri() ?>/logos/brands/youtube-svgrepo-com.svg" alt="">
+                  <img src="<?php echo get_stylesheet_directory_uri() ?>/logos/brands/youtube-svgrepo-com.svg" alt="youtube logo">
                 </a>
 
                 <a class="text-decoration-none me-10" href="#">
