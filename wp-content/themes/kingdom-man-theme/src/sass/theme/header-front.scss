@@ -161,13 +161,19 @@
 
 @media (max-width: 1024px) {
   .btn-secondary {
-    left: 25px !important; // 25px
+    left: 25px;
   }
 }
 
-@media (max-width: 1440px) {
+@media (min-width: 1025px) and (max-width: 1440px) {
   .btn-secondary {
     left: 312px;
+  }
+}
+
+@media (min-width: 1441px) and (max-width: 1888px) {
+  .btn-secondary {
+    left: 444px;
   }
 }
 

@@ -28,7 +28,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                   <img src="<?php echo get_stylesheet_directory_uri() ?>/logos/brands/facebook.svg" alt="">
                 </a>
                 <a class="text-decoration-none me-10" href="#">
-                  <img src="<?php echo get_stylesheet_directory_uri() ?>/logos/brands/Twitter.svg" alt="">
+                  <img src="<?php echo get_stylesheet_directory_uri() ?>/logos/brands/twitter-x.svg" alt="">
                 </a>
                 <a class="text-decoration-none me-10" href="#">
                   <img src="<?php echo get_stylesheet_directory_uri() ?>/logos/brands/Instagram.svg" alt="">
