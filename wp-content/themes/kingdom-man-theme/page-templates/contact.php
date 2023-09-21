@@ -46,7 +46,7 @@ get_header();
                     <h3 class="heading-contact mt-6 mb-6">Please fill in the details and your message</h3>
 
                     <!-- Contact form 7 -->
-                    <?php echo do_shortcode('[contact-form-7 id="b6cb8a8" title="Contact Form"]'); ?>
+                    <?php echo do_shortcode('[wpforms id="361"]'); ?>
 
                   </form>
                 </div>
