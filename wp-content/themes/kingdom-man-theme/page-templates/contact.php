@@ -41,14 +41,13 @@ get_header();
                 <div class="position-relative py-12 px-10 bg-white shadow-lg text-center">
                   <img class="d-none d-lg-block position-absolute bottom-100 start-50" style="height: 88px;" src="<?php echo get_stylesheet_directory_uri() ?>/elements/green-light-left.svg" alt="">
                   <img class="d-none d-lg-block position-absolute top-100 start-50" style="height: 88px;" src="<?php echo get_stylesheet_directory_uri() ?>/elements/light-green-left.svg" alt="">
-                  <form action="#">
+
                     <span class="badge bg-secondary-light"></span>
                     <h3 class="heading-contact mt-6 mb-6">Please fill in the details and your message</h3>
 
                     <!-- Contact form 7 -->
                     <?php echo do_shortcode('[contact-form-7 id="b6cb8a8" title="Contact Form"]'); ?>
 
-                  </form>
                 </div>
               </div>
             </div>

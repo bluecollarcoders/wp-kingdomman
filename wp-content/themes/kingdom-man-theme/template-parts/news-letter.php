@@ -22,10 +22,8 @@ defined( 'ABSPATH' ) || exit;
               </div>
               <div class="col-12 col-lg-5">
 
-                <form action="#">
                   <!-- Contact form 7 -->
                   <?php echo do_shortcode('[contact-form-7 id="8202f03" title="Newsletter"]'); ?>
-                </form>
 
               </div>
             </div>

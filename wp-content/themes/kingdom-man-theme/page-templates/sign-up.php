@@ -26,7 +26,7 @@ get_header();
           <div class="container" style="margin-top: 100px;">
             <div class="mw-md mx-auto text-center">
               <div class="text-center">
-                <form action="#">
+
                   <span class="badge bg-secondary-light text-uppercase">Sign Up</span>
                   <h3 class="mt-6 mb-8">Join the Communtiy</h3>
 
@@ -35,7 +35,7 @@ get_header();
 
                     <input class="form-check-input me-4" type="checkbox" name="terms" value="1">
                     <small class="text-muted">By signing up, you agree to our <a class="text-muted text-decoration-none fw-bold" href="#">Terms, Data Policy</a> and <a class="text-muted text-decoration-none fw-bold" href="#">Cookies Policy</a>.</small>
-                </form>
+
               </div>
             </div>
           </div>
