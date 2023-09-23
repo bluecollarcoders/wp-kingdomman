@@ -21,10 +21,8 @@ defined( 'ABSPATH' ) || exit;
                 <p class="text-light">Get exclusive access to resources, events, and stories that will inspire and equip you to be the man God has called you to be.</p>
               </div>
               <div class="col-12 col-lg-5">
-
                   <!-- Contact form 7 -->
                   <?php echo do_shortcode('[contact-form-7 id="8202f03" title="Newsletter"]'); ?>
-
               </div>
             </div>
           </div>
